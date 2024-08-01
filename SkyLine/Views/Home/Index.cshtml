@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@* @model SkyLine.Views.Shared.IndexModel *@
+<h1 style=" background-color:beige ;color:blue;text-align:center">Welcome to SkyLine</h1>
+< class="alart alert-success text-center">@DateTime.Now<h3>
+		@{
+			Employees emp = new Employees()
+			{
+				Id = 1001,
+				FullName = "Shimaa Amr Mahmoud",
+				NationalId = "32980328034820",
+				Position = "Backend Developer",
+				Salary = 25000m
+			};
+		}
+	<d1>
+		<dt>Id<</dt>
+		<dd>@emp.Id</dd>
+		<dt>FullName</dt>
+		<dd>@emp.FullName</dd>
+		<dt>NationalId</dt>
+		<dd>@emp.NationalId</dd>
+		<dt>Position</dt>
+		<dd>@emp.Position</dd>
+		<dt>Salary</dt>
+		<dd>@emp.Salary</dd>
+
+
+
+	</d1>
